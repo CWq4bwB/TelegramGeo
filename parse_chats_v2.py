@@ -21,7 +21,7 @@ async def main():
                 await app.download_media(photo.big_file_id, file_name=f"{location}/{elem.title}.jpg")
                 print("Фотография сохранена.")
             else:
-                print("Фотографий нет нет.")
+                print("Фотографий нет.")
 
 
 async def get_members(chat_id):
@@ -45,7 +45,7 @@ async def get_members(chat_id):
                     await app.download_media(photo.big_file_id, file_name=f"{location}/{fio}.jpg")
                     print("Фотография сохранена.")
                 else:
-                    print("Фотографий нет нет.")
+                    print("Фотографий нет.")
 
 
 while True:
